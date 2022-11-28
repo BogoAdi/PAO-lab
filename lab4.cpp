@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 class Weel{
     public:
@@ -30,7 +29,7 @@ class Weel{
     string id;
 
 };
-class Bike{
+ class Bike{
 private:
     string producer;
     string id;
