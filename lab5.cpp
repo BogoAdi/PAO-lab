@@ -97,7 +97,7 @@ ElectricBike(string typeEnginee, int power,int maxSpeed,string brand, string id,
         return *this;
     }
     void showIt(){
-        cout<<"Electric Bike: "<<this->typeEnginee<<" "<< this->power <<" "<<this->maxSpeed<<" Euro"<<endl;
+        cout<<"Electric Bike: "<<this->typeEnginee<<" "<< this->power <<" CP "<<this->maxSpeed<<" Km/h and price "<<this->price<<endl;
     }
     //   static void doSomethingSpecial( Bike& rb, ElectricBike* pd){
     //      if(rb.price > pd->price) cout<< rb.price<<endl;
